@@ -41,9 +41,6 @@ button {
 
 .section1{
 	color: white;
-  padding-top: 15%;
-  padding-bottom: 25%;
-  background-size: 100% auto;
 }
 
 .section2{
@@ -51,7 +48,10 @@ button {
 }
 
 .background-section1{
-	background-image: url(/resources/background_photo.jpg);
+	background-image: url(resources/background_photo.jpg);
+	padding-top: 15%;
+	padding-bottom: 25%;
+	background-size: 100% auto;
 }
 
 .logo{
