@@ -5,23 +5,10 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<title>Social Intelligence</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/average.js"></script>
 </head>
-<script type="text/javascript">
-// Parse the URL parameter
-function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-// Give the parameter a variable name
-var q1 = getParameterByName('q1');
 
-
-</script>
 <body>
 	<header>
 		<div class="navbar">
@@ -38,12 +25,10 @@ var q1 = getParameterByName('q1');
 	</header>
 	<div class="container-fluid">
 		<!-- Affiliated schools above -->
-		<div class="row background-section1">
+		<div class="row">
 			<div class="container">
-				<div class="section1">
-					<h1 style="font-size: 3em">Your Score:</h1>
-					<h1 style="font-size: 3em" id="score"></h1>	
-				</div>
+				<h1 style="font-size: 3em">Your Score:</h1>
+				<h1 style="font-size: 3em" id="score"></h1>	
 			</div>
 		</div>
 	</div>
