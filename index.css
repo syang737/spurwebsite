@@ -48,7 +48,7 @@ button {
 }
 
 .background-section1{
-	background-image: url(background_photo.jpg);
+	background-image: url(/resources/background_photo.jpg);
 	padding-top: 15%;
 	padding-bottom: 25%;
 	background-size: 100% auto;
