@@ -26,12 +26,6 @@ nav{
   float: right;
 }
 
-.button {
-  margin: 18px;
-  padding: 15px 32px;
-  border-radius: 12px;
-  background-color: #9b9b9b;
-}
 
 input,
 textarea,
@@ -41,9 +35,7 @@ button {
 
 .section1{
 	color: white;
-  padding-top: 15%;
-  padding-bottom: 25%;
-  background-size: 100% auto;
+  
 }
 
 .section2{
@@ -51,7 +43,10 @@ button {
 }
 
 .background-section1{
-	background-image: url(/resources/background_photo.jpg);
+  background-image: url(resources/background_photo.jpg);
+  padding-top: 15%;
+  padding-bottom: 25%;
+  background-size: 100% auto;
 }
 
 .logo{
@@ -63,6 +58,19 @@ button {
 .navbar{
   width: 80%;
   margin: 0 auto;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    margin: 18px;
+    padding: 15px 32px;
+    border-radius: 12px;
+    background-color: #9b9b9b;
 }
 
 nav ul{
